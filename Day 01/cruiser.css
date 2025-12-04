@@ -1,0 +1,52 @@
+body {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    background-color: rgb(231, 216, 216);
+    padding: 15px;
+}
+
+h2 {
+    background-color: cornsilk;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.shop-section {
+    background-color: rgb(233, 217, 127);
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    color: darkred;
+}

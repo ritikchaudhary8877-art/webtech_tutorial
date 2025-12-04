@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .table-responsive {
+        width: 100%;
+        overflow-x: auto;  /* Enables horizontal scroll on small screens */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: left;
+        white-space: nowrap; /* Prevents text from wrapping */
+    }
+
+    th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    /* Optional: Better look on mobile */
+    @media (max-width: 600px) {
+        th, td { padding: 10px; }
+    }
+</style>
+</head>
+<body>
+
+<div class="table-responsive">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Johnson</td>
+                <td>alice@example.com</td>
+                <td>Admin</td>
+                <td>Active</td>
+            </tr>
+            <tr>
+                <td>Mark Smith</td>
+                <td>mark@example.com</td>
+                <td>Editor</td>
+                <td>Pending</td>
+            </tr>
+            <tr>
+                <td>Sara Brown</td>
+                <td>sara@example.com</td>
+                <td>User</td>
+                <td>Inactive</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
